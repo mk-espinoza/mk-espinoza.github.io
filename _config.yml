@@ -20,7 +20,7 @@ timezone: America/New_York
 
 title: Marina Espinoza # the main title
 
-tagline: From GUI developer to AR enthusiast : \nBlending programming, art, and math into my career.
+tagline: From GUI developer to AR enthusiast \: Blending programming, art, and math into my career.
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
