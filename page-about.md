@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Projects
+title: About Me
 nav_order: 2
-has_children: true
 ---
 
 Placeholder for about page
