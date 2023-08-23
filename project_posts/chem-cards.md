@@ -40,7 +40,8 @@ With my set of trading cards, I can use my application to view a 3D model of a m
 *Main Menu Interaction*
 
 ## AR Mode
-*add image 6*
+
+<!-- add image -->
 
 ## Digital Molecule Models
 <div class="sketchfab-embed-wrapper"> <iframe title="Cinnamaldehyde" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/c83ac7542b9e4d49ac6aed79c18a11a5/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/cinnamaldehyde-c83ac7542b9e4d49ac6aed79c18a11a5?utm_medium=embed&utm_campaign=share-popup&utm_content=c83ac7542b9e4d49ac6aed79c18a11a5" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Cinnamaldehyde </a> by <a href="https://sketchfab.com/mk_espinoza?utm_medium=embed&utm_campaign=share-popup&utm_content=c83ac7542b9e4d49ac6aed79c18a11a5" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> mk_espinoza </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=c83ac7542b9e4d49ac6aed79c18a11a5" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
@@ -217,7 +218,7 @@ I gave my reference image library to the AR Tracked Image Manager so that it kno
 > 
 > I created a prefab for each molecule:
 > 
-> *add image 24*
+> <!-- add image -->
 > 
 > So I will usually be referring to these prefabs throughout the rest of the documentation.
 > 
@@ -225,7 +226,7 @@ I gave my reference image library to the AR Tracked Image Manager so that it kno
 > 
 > A component is a class that can modify the behaviour or properties of a game object.
 > 
-> *add image 25*
+> <!-- add image -->
 > 
 > I mentioned some pre-existing components, like the AR Tracked Image Manager. 
 > 
@@ -237,11 +238,11 @@ I gave my reference image library to the AR Tracked Image Manager so that it kno
 
 The AR Tracked Image Manager can only use one prefab to render game objects on top of the image markers in the camera view.
 
-*add image 26*
+<!-- add image -->
 
 Out-of-the-box, I won’t be able to display the correct molecule model to its corresponding image marker (aka the trading cards).
 
-*add image 27*
+<!-- add image -->
 
 #### Solution:
 Create a new component to extend the functionality of AR Tracked Image Manager! I learned how to do this by a tutorial by Andreas Jakl’s blog on [2D Image Tracking with AR Foundation](https://www.andreasjakl.com/2d-image-tracking-with-ar-foundation-part-4/)
@@ -260,7 +261,7 @@ As a result, my AR application could detect a trading card of an organic compoun
 
 With the current implementation, I can only display one specific prefab per one marker image.
 
-*add image 37*
+<!-- add image -->
 
 Ideally, I want to be multiple markers to be associated to a specific prefab, because I want a molecule to appear for two types of trading cards.
 
@@ -270,7 +271,7 @@ I created a new component for my prefabs so they can manage their own list of ma
 
 This  component is called Molecule Controller
 
-*add image 38*
+<!-- add image -->
 
 As this addition was not part of the 2D Image Tracking tutorial, I will give a brief description of the development of this class.
 
@@ -288,7 +289,7 @@ In this process, it will check the `ImageMarkers` for each prefab via a search m
 
 If it finds the new marker image in one of the prefab’s `ImageMarkers`, then it will use that prefab to create the game object.
 
-*add image 40*
+<!-- add image -->
 
 As final result, my AR application can display a specific molecule for multiple cards. 
 
@@ -296,8 +297,7 @@ As final result, my AR application can display a specific molecule for multiple 
 
 For my models of molecules, I knew I wanted each atom to be a different color, and that the molecules to look like the classic ball-and-stick model (like the models used in classrooms).
 
-
-*add image 41*
+<!-- add image -->
 
 ### Resources
 
@@ -310,7 +310,7 @@ I also followed a youtube tutorial by [3D Blender Tutorials by ianscott888](http
 
 As of today, I created two molecule models in Blender: cinnamaldehyde and ethanol.
 
-*add image 43*
+<!-- add image -->
 
 For the color of the atoms, I followed the CPK coloring convention, as most physical molecule models do today.
 
