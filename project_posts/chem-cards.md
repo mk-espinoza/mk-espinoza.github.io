@@ -149,7 +149,9 @@ I started with adding the two main game objects in AR Foundations:
 
 ![](../assets/projects/chem-cards/unity_heirarchy.png)
 
-> [!NOTE]
+{: .important-title }
+> Knowledge Note
+> 
 > The **AR Session**  and **AR Session Origin** are both essential, but understanding their responsibilities can be a bit confusing at first.
 > 
 > From my understanding, the AR Session…
@@ -188,7 +190,9 @@ This object contains all the images of my trading cards, along with their physic
 
 I gave my reference image library to the AR Tracked Image Manager so that it knows which images to find in the camera view.
 
-> [!NOTE]
+{: .important-title }
+> Knowledge Note
+> 
 > The terms **game objects**, **prefabs**, and **components** gets used a lot in this documentation.
 > 
 > Especially when the term “game object” can be a bit vague in Unity, as it can represent any object in the game hierarchy.
