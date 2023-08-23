@@ -37,7 +37,7 @@ Youtube link coming soon!
 
 Link to Ethanol Model: [Sketchfab](https://skfb.ly/oKwKA) 
 
-Link to Cinnamaldehyde Model: [Sketchfab]([https://skfb.ly/oKwKu])
+Link to Cinnamaldehyde Model: [Sketchfab](https://skfb.ly/oKwKu)
 
 ---
 
