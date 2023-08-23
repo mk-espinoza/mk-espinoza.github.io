@@ -20,7 +20,7 @@ To solidify the concepts I've been learning about AR development, I decided to d
 ## The Trading Cards
 The set of trading cards is custom-designed with either the chemical structure of an organic component or their origin (i.e. common household items).
 
-![[trading_cards.png]]
+![](../assets/projects/chem-cards/all_trading_cards.png)
 
 ## The AR Application
 With my set of trading cards, I can use my application to view a 3D model of a molecule using my iPad devise.
