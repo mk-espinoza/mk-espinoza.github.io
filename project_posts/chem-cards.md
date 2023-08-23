@@ -5,6 +5,8 @@ parent: Projects
 nav_order: 1
 ---
 
+# Project: Chem Cards
+
 ## Chem Cards is an educational augmented reality application that can display 3D models of chemical molecules with informational trading cards.
 ----
 
