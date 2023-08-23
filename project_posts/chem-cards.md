@@ -25,17 +25,16 @@ The set of trading cards is custom-designed with either the chemical structure o
 ## The AR Application
 With my set of trading cards, I can use my application to view a 3D model of a molecule using my iPad devise.
 
-![[IMG_0099.png]]
-
-
+![](../assets/projects/chem-cards/ar_scene_preview.png)
 
 # Demonstrations
 
 ## Full Walkthrough
-![[RPReplay_Final1692541172.mov]]
+![](../assets/projects/chem-cards/full_demo.mov)
 
 ## Menu UI
-![[RPReplay_Final1692553854.mov]]
+![](../assets/projects/chem-cards/menu_demo.mov)
+
 *Main Menu Interaction*
 
 ## AR Mode
@@ -56,7 +55,7 @@ With my set of trading cards, I can use my application to view a 3D model of a m
 ### For Type of AR Method
 My proof of concept was an application I had learnt to build in my Udemy course of AR development in Unity:
 
-![[RPReplay_Final1679345024.mov]]
+![](../assets/projects/chem-cards/dragon_app.png)
 
 I used AR Foundations and its out-of-the box Image Tracking system to create an app that displayed a model of a dragon on top of a book.
 
@@ -92,7 +91,7 @@ This tool + library was recommended to me because it had an easy-to-use interfac
 
 ### Sketches & Research for Cards
 
-![[research_and_sketch.png]]
+![](../assets/projects/chem-cards/research_and_sketch.png)
 I've went through several takes and rough sketches on paper and procreate. These are some of the sketchbook drawings of the cards and the notes I took during when I was learning about organic chemistry.
 
 One of my favorite parts about starting a project is doing the research behind the subject!
@@ -100,29 +99,29 @@ One of my favorite parts about starting a project is doing the research behind t
 
 ### Polished Layout for Cards
 
-![[Front - Cinnamon.png]]
+![](../assets/projects/chem-cards/front_card_w_image.png)
 *Front of the trading card with origin of organic chemical compound*
 
-![[Front - Cinnamaldehyde.png]]
+![](../assets/projects/chem-cards/front_card_w_formula.png)
 *Front of the trading card with organic chemical compound*
 
-![[Back - Main.png]]
+![](../assets/projects/chem-cards/back_card.png)
 *Back of the trading cards*
 
 
-![[Designs - V3 (for Game Crafters template) 1.png]]
+![](../assets/projects/chem-cards/figma_all_cards.png)
 *All 10 cards cards*
 
 ### Centerpiece Drawings
 
 I created drawings that felt like they were drawn on the trading cards using pastels:
-![[Rectangle 5 (1) 1.png]]
+![](../assets/projects/chem-cards/center_image.png)
 
 
 ### Rough Mockup of Start Screen
 
 I stuck to simple shapes and used same color palette as the cards to give a clean and cohesive look. This also helped ease the development process.
-![[Main Menu.png]]
+![](../assets/projects/chem-cards/mockup_menu.png)
 
 
 *My inspiration for the menu mockups is from a video game called, A Little to the Left.*
@@ -133,7 +132,7 @@ I also added three new screens:  a screen for credits, instructions, and level s
 
 All screens are pieced together to make it look like a desk of a student.
 
-![[Whole Page (1).png]]
+![](../assets/projects/chem-cards/whole_menu.png)
 
 This decision made my development process easier because I’m able to transition from one screen to another without creating new scenes.
 
@@ -146,7 +145,7 @@ I started with adding the two main game objects in AR Foundations:
 - **AR Session**
 - **AR Session Origin**
 
-![[Pasted image 20230820151743.png]]
+![](../assets/projects/chem-cards/unity_heirarchy.png)
 
 > [!NOTE]
 > The **AR Session**  and **AR Session Origin** are both essential, but understanding their responsibilities can be a bit confusing at first.
@@ -241,7 +240,7 @@ Create a new component to extend the functionality of AR Tracked Image Manager! 
 Please read the full tutorial in the link! He does a really great job at explaining how the Tracked Image Manager works in AR Foundations, and he walks through his process of how to code the custom component. 
 
 After I followed his walkthrough, I created the **AR Place Tracked Images** component for my AR Session Origin:
-![[Pasted image 20230820153212.png]]
+![](../assets/projects/chem-cards/unity_inspector.png)
 
 At this state, my AR Session Origin could take in multiple prefabs and associate a marker image to each of them. 
 
@@ -271,7 +270,7 @@ In the Molecule Controller, it has an public array called `ImageMarkers`.
 
 As the name suggests, it will store a list of reference images.
 
-![[Pasted image 20230820154553.png]]
+![](../assets/projects/chem-cards/unity_prefab_controller.png)
 
 Later, when the AR Tracked Image Manager is going through the process of adding a new  
 
