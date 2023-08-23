@@ -9,7 +9,6 @@ nav_order: 1
 ----
 
 ## Purpose
-
 ### Why did I build this application?
 I wanted to create a gift related to her growing interest in organic chemistry for my best friend's upcoming birthday, . 
 
