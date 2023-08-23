@@ -30,9 +30,11 @@ With my set of trading cards, I can use my application to view a 3D model of a m
 # Demonstrations
 
 ## Full Walkthrough
+
 ![](../assets/projects/chem-cards/full_demo.mov)
 
 ## Menu UI
+
 ![](../assets/projects/chem-cards/menu_demo.mov)
 
 *Main Menu Interaction*
@@ -92,6 +94,7 @@ This tool + library was recommended to me because it had an easy-to-use interfac
 ### Sketches & Research for Cards
 
 ![](../assets/projects/chem-cards/research_and_sketch.png)
+
 I've went through several takes and rough sketches on paper and procreate. These are some of the sketchbook drawings of the cards and the notes I took during when I was learning about organic chemistry.
 
 One of my favorite parts about starting a project is doing the research behind the subject!
@@ -100,27 +103,33 @@ One of my favorite parts about starting a project is doing the research behind t
 ### Polished Layout for Cards
 
 ![](../assets/projects/chem-cards/front_card_w_image.png)
+
 *Front of the trading card with origin of organic chemical compound*
 
 ![](../assets/projects/chem-cards/front_card_w_formula.png)
+
 *Front of the trading card with organic chemical compound*
 
 ![](../assets/projects/chem-cards/back_card.png)
+
 *Back of the trading cards*
 
 
 ![](../assets/projects/chem-cards/figma_all_cards.png)
+
 *All 10 cards cards*
 
 ### Centerpiece Drawings
 
 I created drawings that felt like they were drawn on the trading cards using pastels:
+
 ![](../assets/projects/chem-cards/center_image.png)
 
 
 ### Rough Mockup of Start Screen
 
 I stuck to simple shapes and used same color palette as the cards to give a clean and cohesive look. This also helped ease the development process.
+
 ![](../assets/projects/chem-cards/mockup_menu.png)
 
 
@@ -240,6 +249,7 @@ Create a new component to extend the functionality of AR Tracked Image Manager! 
 Please read the full tutorial in the link! He does a really great job at explaining how the Tracked Image Manager works in AR Foundations, and he walks through his process of how to code the custom component. 
 
 After I followed his walkthrough, I created the **AR Place Tracked Images** component for my AR Session Origin:
+
 ![](../assets/projects/chem-cards/unity_inspector.png)
 
 At this state, my AR Session Origin could take in multiple prefabs and associate a marker image to each of them. 
