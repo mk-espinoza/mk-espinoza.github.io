@@ -31,17 +31,7 @@ With my set of trading cards, I can use my application to view a 3D model of a m
 
 ## Full Walkthrough
 
-![](../assets/projects/chem-cards/full_demo.mov)
-
-## Menu UI
-
-![](../assets/projects/chem-cards/menu_demo.mov)
-
-*Main Menu Interaction*
-
-## AR Mode
-
-<!-- add image -->
+**Youtube link coming soon!**
 
 ## Digital Molecule Models
 <div class="sketchfab-embed-wrapper"> <iframe title="Cinnamaldehyde" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/c83ac7542b9e4d49ac6aed79c18a11a5/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/cinnamaldehyde-c83ac7542b9e4d49ac6aed79c18a11a5?utm_medium=embed&utm_campaign=share-popup&utm_content=c83ac7542b9e4d49ac6aed79c18a11a5" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Cinnamaldehyde </a> by <a href="https://sketchfab.com/mk_espinoza?utm_medium=embed&utm_campaign=share-popup&utm_content=c83ac7542b9e4d49ac6aed79c18a11a5" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> mk_espinoza </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=c83ac7542b9e4d49ac6aed79c18a11a5" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
