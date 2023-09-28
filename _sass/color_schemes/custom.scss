@@ -2,5 +2,9 @@
 $dark-beige: #EDE5D8; 
 $light-beige: #FFFDF1; 
 
+// Overriding Variables
 $body-background-color: $light-beige;
 $sidebar-color: $dark-beige; 
+
+$body-font-family: "Segoe UI",
+  roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji" !default;
